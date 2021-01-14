@@ -1,0 +1,17 @@
+Title: Free Test Automation For All | TestProject
+Text :Mobile Test Recorder
+TableTitle:HTML TABLE Tag
+Name: Alan
+ShowAlertBox:I am an alert box!
+PromptMessage: Fine
+IFrameExampleHeader:iFrame Example Header
+NestedPageExample:Nested Page Example
+username:nabaghanab85
+password:Password
+comments: Adding html details
+para1:A paragraph of text
+para2:Another paragraph of text
+fakeShowAlertText:I am a fake alert box!
+fakeModelDivText:I am a modal div!
+HoverText:You can see this paragraph now that you hovered on the above 'button'.
+
