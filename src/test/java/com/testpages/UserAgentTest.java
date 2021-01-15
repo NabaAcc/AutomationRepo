@@ -40,5 +40,4 @@ public class UserAgentTest extends BaseClass {
 
     }
 
-    // Moved to github
 }
