@@ -7,12 +7,7 @@
     </listeners>
     <test name="headless browser test">
         <classes>
-            <class name="com.testpages.BasicAjaxJavaScriptTest">
-                <methods>
-                    <include name="pickCategoryAndVerifyLanguage"/>
-                </methods>
-            </class>
+            <class name="com.testpages.DragAndDropTest"/>
         </classes>
     </test>
 </suite>
-

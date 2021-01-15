@@ -32,8 +32,13 @@ public class AutomationPageLink {
     private WebElement basicAjaxJavaScriptPageLink;
     @FindBy(id="useractionstest")
     private WebElement dragDropExampleLink;
+    @FindBy(id="javascriptfieldvalidationtest")
+    private WebElement fieldValidationJSlink;
 
     /***************Getters Usage**************/
+    public WebElement getFieldValidationJSlink() {
+        return fieldValidationJSlink;
+    }
     public WebElement getDragDropExampleLink() {
         return dragDropExampleLink;
     }
