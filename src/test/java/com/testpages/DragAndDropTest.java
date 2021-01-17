@@ -30,7 +30,6 @@ public class DragAndDropTest extends BaseClass {
         Assert.assertTrue(dropHereText2.contains("Dropped"));
     }
 
-
 }
 
 

@@ -7,7 +7,8 @@
     </listeners>
     <test name="headless browser test">
         <classes>
-            <class name="com.testpages.DragAndDropTest"/>
+          <!--  <class name="com.testpages.DragAndDropTest"/>-->
+            <class name="com.testpages.FieldValidationJSExampleTest"></class>
         </classes>
     </test>
 </suite>

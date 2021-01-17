@@ -5,11 +5,14 @@ import org.openqa.selenium.support.FindBy;
 
 public class FieldValidationJavaScriptExamplePage {
   /******************Initialization*************/
- @FindBy(name="value")
+ @FindBy(xpath="//div[@class='form-label']/input")
   private WebElement valueEditbox;
  @FindBy(name="submitbutton")
   private WebElement submitButton;
+
+
   /******************Getters Usage**************/
+
   public WebElement getValueEditbox() {
     return valueEditbox;
   }
