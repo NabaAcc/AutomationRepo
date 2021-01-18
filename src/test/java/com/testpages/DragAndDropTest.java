@@ -1,11 +1,9 @@
 package com.testpages;
-
 import com.genericLibraries.BaseClass;
 import com.genericLibraries.WebDriverUtils;
 import com.objectRepository.automationlinks.AutomationPageLink;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-
 public class DragAndDropTest extends BaseClass {
     @Test()
     public static void verifyDragAndDrop() throws InterruptedException {
@@ -15,8 +13,6 @@ public class DragAndDropTest extends BaseClass {
         WebDriverUtils.clickElement(apl.getDragDropExampleLink());
         //Call the
 
-
     }
-
 
 }
